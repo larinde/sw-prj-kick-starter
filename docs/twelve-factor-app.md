@@ -65,11 +65,14 @@ https://12factor.net/
 8. concurrency
     - scaling out by diversifying workload of processes
     - similar to the microservice architecture paradigm
-9.  decomposability
+9. disposability
     - an application should be quick to start up, graceful to shut down and resilient to failure
     - reasons:
       - Ease of replacement
-      - Ease of modification
+      - Ease of adopting various deployment models
+        - Rolling deployment
+        - Blue-green release
+        - Canary release
 10. dev/prod parity
     - dev environment should be identical to production environment and every environment in between (staging)
     - reasons:
